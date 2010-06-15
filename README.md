@@ -15,3 +15,6 @@ not impressed. So if I can make this integration work, I bet Kooja will be a tou
 I haven't considered all the repercussions of integrating Kohana into Joomla, but I'm crossing my fingers. I hope I can make this work.
 
 Send me a message if you want to join this project!
+
+Download the latest installable package [here](http://github.com/raeldc/kojo-project/tree/master/packages/)
+==========================================================================================================
