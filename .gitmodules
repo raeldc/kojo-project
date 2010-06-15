@@ -1,0 +1,6 @@
+[submodule "examples/com_klinks"]
+	path = examples/com_klinks
+	url = git@github.com:raeldc/kojo-klinks.git
+[submodule "plugin"]
+	path = plugin
+	url = git@github.com:raeldc/kojo-plugin.git
