@@ -5,5 +5,4 @@ zipper.sh
 exclude.lst
 examples/plg_koowa
 examples/com_library
-packages/plg_koowa*
-packages/plg_kojo/*
+
