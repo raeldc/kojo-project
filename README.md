@@ -62,9 +62,9 @@ KoJo includes the best ORM available in Kohana - Jelly. [Read more details about
 Development
 ===========
 
-For now, KoJo is a proof of concept. Further testing is required to give a better view of the pitfalls or repercussions of running Kohana 3 inside Joomla.
+For now, KoJo is a proof of concept. Further testing is required to give a better idea of the pitfalls and repercussions of running Kohana 3 inside Joomla.
 
-If you're interested, just follow project on [GitHub](http://github.com/raeldc/kojo-project) or follow me on [Twitter](http://twitter.com/raeldc). 
+If you're interested, just follow this project on [GitHub](http://github.com/raeldc/kojo-project) or follow me on [Twitter](http://twitter.com/raeldc). 
 If you already know both Joomla and Kohana 3, then maybe you can help me with the development. 
 I want to strip Kohana down into something lighter so it leaves little memory footprint inside Joomla.
 
