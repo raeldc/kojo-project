@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/nooku-framework/!svn/ver/872/releases/0.6/docs/examples/com_library/install
+END
+install.mysql.utf.sql
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/nooku-framework/!svn/ver/872/releases/0.6/docs/examples/com_library/install/install.mysql.utf.sql
+END
+uninstall.mysql.utf.sql
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/nooku-framework/!svn/ver/872/releases/0.6/docs/examples/com_library/install/uninstall.mysql.utf.sql
+END
