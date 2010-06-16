@@ -1,2 +1,0 @@
-Download the latest installable package [here](http://github.com/raeldc/kojo-project/tree/master/packages/)
-==========================================================================================================
