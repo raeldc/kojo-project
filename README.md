@@ -14,11 +14,9 @@ Have you ever wanted an swift, agile, RAD framework like RoR, Django, and CodeIg
 See how it works:
 =================
 
-Joomla 1.6 Weblinks Frontend Component [rewritten in KoJo](http://github.com/raeldc/kojo-klinks)
-------------------------------------------------------------------------------------------------
+*	Joomla 1.6 Weblinks Frontend Component [rewritten in KoJo](http://github.com/raeldc/kojo-klinks)
+*	How Nooku's example component was [Rewritten in KoJo](http://github.com/raeldc/kojo-klibrary).
 
-How Nooku's example component was [Rewritten in KoJo](http://github.com/raeldc/kojo-klibrary).
-----------------------------------------------------------------------------------------------
 
 How to Install
 ==============
