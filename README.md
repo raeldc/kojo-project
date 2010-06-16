@@ -48,12 +48,12 @@ To know more about Kohana, read the [unofficial wiki](http://kerkness.ca/wiki/do
 As a summary, understand these 3 things about Kohana, and you'll have the foundation to understand it completely easily:
 ------------------------------------------------------------------------------------------------------------------------
 *	**File System structure and Naming Convention** - all classes in Kohana are located inside /application/classes. 
-		Classes are named like this `Directory_SubDirectory_File`. Which means that it's located at `/application/classes/directory/subdirectory/file.php`. 
-		There is an auto-loader so you don't have to explicitly include the file that contains the class. In KoJo, the classes are located at `/components/com_yourcomponent/classes`.
+Classes are named like this `Directory_SubDirectory_File`. Which means that it's located at `/application/classes/directory/subdirectory/file.php`. 
+There is an auto-loader so you don't have to explicitly include the file that contains the class. In KoJo, the classes are located at `/components/com_yourcomponent/classes`.
 *	**Cascading File System** - This one is a little bit complicated at first but once you learn it, it's smooth sailing. CFS gives you the flexibility to override anything that Kohana has without hacking it.
-		[Read the explanation here](http://kohanaframework.org/guide/about.filesystem).
+[Read the explanation here](http://kohanaframework.org/guide/about.filesystem).
 *	**Routing and Request** - Everything in Kohana is based on the route. It takes segments from the URI and interprets the segment into parametrs based on a Regex. 
-		The Route is passed on the Request, then the Request calls the controller based on the route. More on [Routing here](http://kerkness.ca/wiki/doku.php?id=routing:routing_basics).
+The Route is passed on the Request, then the Request calls the controller based on the route. More on [Routing here](http://kerkness.ca/wiki/doku.php?id=routing:routing_basics).
 
 The Jelly ORM
 -------------
@@ -72,10 +72,12 @@ If you are familiar with Kohana, you know that stripping it down doesn't mean ha
 
 
 Download the latest installable packages [here](http://github.com/raeldc/kojo-project/tree/master/packages/)
-==========================================================================================================
+------------------------------------------------------------------------------------------------------------
 
-Performance
-===========
+Performance Summary
+===================
+
+Does Joomla take a performance hit when it runs a component written in KoJo? A little bit. Compared to Nooku, KoJo is heavier by 600kb. But once the code is optimized, and uses a simpler ORM instead of Jelly, I think it can even become lighter.
 
 **com_klinks**
 
