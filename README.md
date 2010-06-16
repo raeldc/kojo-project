@@ -14,16 +14,20 @@ KoJo is inspired by the best and powerful ideas from RoR, Django, and CodeIgnite
 See how it works:
 =================
 
-[Joomla 1.6 Weblinks Frontend Component rewritten in KoJo](http://github.com/raeldc/kojo-klinks)
+Joomla 1.6 Weblinks Frontend Component [rewritten in KoJo](http://github.com/raeldc/kojo-klinks)
 ------------------------------------------------------------------------------------------------
 
-[Nooku's example component rewritten in KoJo](http://github.com/raeldc/kojo-klibrary/blob/master/README.md).
+How Nooku's example component was [Rewritten in KoJo](http://github.com/raeldc/kojo-klibrary/blob/master/README.md).
 ------------------------------------------------------------------------------------------------------------
 
 How to Install
 ==============
-*	Get the latest [Joomla 1.6 beta-3 release](http://joomlacode.org/gf/project/joomla/frs/?action=FrsReleaseBrowse&frs_package_id=5276)
-*	Download and Install the KoJo Framwork Plugin
+*	Get the latest [Joomla 1.6 beta-3 release](http://joomlacode.org/gf/project/joomla/frs/?action=FrsReleaseBrowse&frs_package_id=5276) and install it in your development server.
+*	Download and Install the [KoJo Framework Plugin](http://github.com/raeldc/kojo-project/blob/master/packages/plg_kojo.zip)
+*	Download and Install the [Joomla 1.6 Weblinks Frontend rewritten in KoJo](http://github.com/raeldc/kojo-klinks). Create a menu item to the component after install.
+*	Download and Install [Nooku's example component rewritten in KoJo](http://github.com/raeldc/kojo-project/blob/master/packages/com_klibrary.zip). 
+
+
 
 
 The Power behind KoJo: [Kohana 3](http://kohanaframework.org/)
@@ -48,7 +52,7 @@ Performance
 	After Displaying the View: 6.4MB
 	Total Execution Time: .296 seconds
 	Total Queries: 17 (Not using MPTT)
-	
+
 **com_weblinks**
 
 	Total Memory Usage: 5MB
