@@ -21,7 +21,7 @@ See how it works:
 How to Install
 ==============
 *	Get the latest [Joomla 1.6 beta-3 release](http://joomlacode.org/gf/project/joomla/frs/?action=FrsReleaseBrowse&frs_package_id=5276) and install it in your development server.
-*	Download and Install the [KoJo Framework Plugin](http://github.com/raeldc/kojo-project/blob/master/packages/plg_kojo.zip). Don't forget to enable the module after install.
+*	Download and Install the [KoJo Framework Plugin](http://github.com/raeldc/kojo-project/blob/master/packages/plg_kojo.zip). Don't forget to enable the plugin after install.
 *	Download and Install the [Joomla 1.6 Weblinks Frontend rewritten in KoJo](http://github.com/raeldc/kojo-klinks). Create a menu item to the component after install.
 *	Download and Install [Nooku's example component rewritten in KoJo](http://github.com/raeldc/kojo-project/blob/master/packages/com_klibrary.zip). 
 
