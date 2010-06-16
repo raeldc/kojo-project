@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="1.6.0" method="upgrade">
+	<name>KLibrary</name>
+	<author>Israel D. Canasa</author>
+	<creationDate>June 2010</creationDate>
+	<copyright>Israel D. Canasa
+	</copyright>
+	<license>MIT License</license>
+	<authorEmail>raeldc@wizmediateam.com</authorEmail>
+	<authorUrl>http://twitter.com/raeldc</authorUrl>
+	<version>0.1</version>
+	<description>A Rewrite of com_library(Nooku Sample Component) using the KoJo Framework</description>
+
+	<files folder="site">
+		<filename>index.html</filename>
+		<filename>klibrary.php</filename>
+	</files>
+
+	<!-- Install Database Section -->
+	<install>
+		<sql>
+			<file charset="utf8" driver="mysql">install/install.mysql.utf.sql</file>
+		</sql>
+	</install>
+	
+	<administration>
+		<menu img="class:weblinks">KoJo - KLibrary</menu>
+		
+		<files folder="admin">
+			<filename>index.html</filename>
+			<filename>klibrary.php</filename>
+			<folder>classes</folder>
+			<folder>views</folder>
+			<folder>install</folder>
+		</files>
+	</administration>
+</extension>
+

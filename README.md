@@ -1,33 +1,49 @@
-This is just a crazy idea
-=========================
+Quick Summary of why KoJo is Good
+=================================
 
-I'm a Joomla developer first and foremost, but I also fell inlove with Kohana 3. I love Kohana's clean and consistent framework.
-How I wish Joomla was written in such a beautiful and easy way!
+*	**It's very easy to learn**
+*	**Consistent API**. Fully compliant with PHP 5 Object Oriented Programming
+*	**Allows you to write less code**. You've heard this cliche many times, but you can [Compare it with Nooku](http://github.com/raeldc/kojo-klibrary/blob/master/README.md).
+*	**Runs on Joomla 1.6**. Future proof!	
+*	**Take your skills with KoJo outside Joomla**! KoJo is based on a mature, stable, and highly acclaimed PHP Framework.
+*	**No restrictive naming conventions**. Class naming convention is the most practical you'll ever see.
+*	**Override everything in your application**. Don't like how an API works? Override it without hacking the core!
 
-Kohana was written in such a way that it gets out of the way of developers. It's so flexible, and also very light, it can actually 
-run inside Joomla. With some hacks here and there, I think I'll be able to make Kohana work flawlessly inside Joomla.
+KoJo is inspired by the best and powerful ideas from RoR, Django, and CodeIgniter. Now you can have that power inside Joomla! 
 
-Once I achieve that goal, then I can enjoy the best of both worlds!
+See how it works:
+=================
 
-I was also checking Nooku, a framework for Joomla written by former Joomla 1.5 lead developer Johan Janssens. Unfortunately, I am
-not impressed. So if I can make this integration work, I bet Kooja will be a tough competition to Nooku. 
+[Joomla 1.6 Weblinks Frontend Component rewritten in KoJo](http://github.com/raeldc/kojo-klinks)
+------------------------------------------------------------------------------------------------
 
-I haven't considered all the repercussions of integrating Kohana into Joomla, but I'm crossing my fingers. I hope I can make this work.
+[Nooku's example component rewritten in KoJo](http://github.com/raeldc/kojo-klibrary/blob/master/README.md).
+------------------------------------------------------------------------------------------------------------
 
-Send me a message if you want to join this project!
+How to Install
+==============
+*	Get the latest [Joomla 1.6 beta-3 release](http://joomlacode.org/gf/project/joomla/frs/?action=FrsReleaseBrowse&frs_package_id=5276)
+*	Download and Install the KoJo Framwork Plugin
 
-Download the latest installable package [here](http://github.com/raeldc/kojo-project/tree/master/packages/)
+
+The Power behind KoJo: [Kohana 3](http://kohanaframework.org/)
+==============================================================
+
+Kohana 3 is the latest evolution of great frameworks from the past. It gets the best ideas from RoR, Django, CodeIgniter, etc, packaged in a lean
+
+Basically, KoJo is a derivative of Kohana so it can run inside Joomla. As the project evolves, some parts of Kohana will be rewritten to strip it with unnecessary weight.
+
+
+Download the latest installable packages [here](http://github.com/raeldc/kojo-project/tree/master/packages/)
 ==========================================================================================================
 
 Performance
 ===========
 
-Memory Footprint
-----------------
 **com_klinks**
 
 	Joomla 1.6 Only: 4.0MB
-	After Initializing Kohana: 4.4MB
+	After Initializing KoJo: 4.4MB
 	After Querying the jos_categories Table using Jelly ORM: 6MB
 	After Displaying the View: 6.4MB
 	Total Execution Time: .296 seconds
@@ -44,9 +60,10 @@ Memory Footprint
 **com_klibrary**
 
 	Joomla 1.6 Only: 4.0MB
-	After Initializing Kohana: 4.4MB
+	After Initializing KoJo: 4.4MB
 	After Displaying the View: 6MB
 	Total Memory Usage without Joomla: 2MB
+	Total Memory Usage without Joomla and Jelly: 1.3MB
 	Total Execution Time: 0.127 seconds
 		
 **com_library**
