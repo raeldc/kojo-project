@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.6" type="plugin" group="system">
+	<name>System - Kojo</name>
+	<author>Israel D. Canasa</author>
+	<creationDate>June 2010</creationDate>
+	<copyright>Copyright (C) 2010 Israel D. Canasa. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>kojo@wizmediateam.com</authorEmail>
+	<authorUrl>http://twitter.com/raeldc</authorUrl>
+	<version>0.1</version>
+	<description>Write Joomla 1.6 Extensions using the Kohana 3 Framework. </description>	
+	
+	<files>
+		<filename plugin="kojo">kojo.php</filename>
+		<folder>kohana</folder>
+		<folder>library</folder>
+	</files>
+	
+</install>

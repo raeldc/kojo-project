@@ -41,6 +41,14 @@ Memory Footprint
 	Total Execution Time: .268 seconds
 	Total Queries: 12
 
+**com_klibrary**
+
+	Joomla 1.6 Only: 4.0MB
+	After Initializing Kohana: 4.4MB
+	After Displaying the View: 6MB
+	Total Memory Usage without Joomla: 2MB
+	Total Execution Time: 0.127 seconds
+		
 **com_library**
 
 	Joomla 1.5 Only: 5.3MB
@@ -48,9 +56,5 @@ Memory Footprint
 	Initializing Koowa: 5.3MB
 	Total Memory Usage without Joomla: 1.4MB
 	Total Queries: 13
-	
-**com_klibrary**
-
-	Joomla 1.6 Only: 4.0MB
-	After Initializing Kohana: 4.4MB
+	Total Execution Time: 0.217 seconds
 	
