@@ -55,6 +55,38 @@ There is an auto-loader so you don't have to explicitly include the file that co
 *	**Routing and Request** - Everything in Kohana is based on the route. It takes segments from the URI and interprets the segment into parametrs based on a Regex. 
 The Route is passed on the Request, then the Request calls the controller based on the route. More on [Routing here](http://kerkness.ca/wiki/doku.php?id=routing:routing_basics).
 
+Why I Love Kohana 3
+-------------------
+
+In the world of programming, many experienced programmers have certain habits that makes them already efficient in what they are doing. 
+This makes transitioning to another framework a costly and risky investment.
+
+Many RAD frameworks out there forces you to learn "a certain way" of doing things which, once you've learned that way, it will undoubtedly make your life easier.
+These RADFs seem to say **"Forget your habits, forget your style, this is how we want you to do things"**.
+This is good for most people, but not for some like me. Technology evolves so fast that when it's time to move on, I don't wanna be stuck with this "certain way".
+
+What I love about Kohana 3 is that it doesn't force you to learn something entirely new. It accepts developers as they are, and they can leave as they are.
+You don't need to unlearn your good habits and coding style, only your bad. But even if you want to leave Kohana, you're not stuck with it, you can take the skills you learned, along with your code somewhere else.
+**Kohana gets out of the developer's way but assists them on things that really matter.**
+
+> **In the simplest explanation, Kohana is just a class auto-loader with a Cascading File System, a set of Profiling and Debugging tools, and an HMVC Request class that calls a Controller based on a URL.**
+
+The Controller then takes charge of everything that's gonna happen. It can call a model, and pass the data to the view.
+
+Everything else in Kohana are Classes that you plug into the system.  Kohana doesn't have a model, it lets you use your own, or use existing ones. 
+Kohana doesn't have a template or view, you can use your own. Kohana just provides the most minimal template system ever, which is plain PHP. 
+
+The Kohana package just includes a set of Classes that are simply Libraries that you can use or ignore. You can easily extend these libraries, and you can easily add your own.
+
+I can say that Kohana is like the Linux Kernel. It's a core that facilitates the Request flow and plugging in of Modules. It even facilitates overriding the core without hacking it.
+
+The advantage of having this system is that there are many great libraries out there that are dedicated on what they are doing. 
+This means that they are usually better that what do-everything-for-you RAD frameworks can offer.
+I want the freedom to choose which libraries I want and I want to use it freely inside my framework. That's what Kohana 3 does for me.
+
+So yup, using Kohana is a step down in comparison to magical, do-everything-for-you framework. 
+But I bet that the libraries I can use inside Kohana are steps ahead of what other do-everything-for-you frameworks offer.
+
 The Jelly ORM
 -------------
 KoJo includes the best ORM available in Kohana - Jelly. [Read more details about Jelly](http://jelly.jonathan-geiger.com/docs/jelly.getting-started).
@@ -98,17 +130,17 @@ Does Joomla take a performance hit when it runs a component written in KoJo? A l
 
 **com_klibrary**
 
+	Total Memory Usage with Joomla: 6MB
 	Joomla 1.6 Only: 4.0MB
-	After Initializing KoJo: 4.4MB
-	After Displaying the View: 6MB
+	After Initializing KoJo: 4.45MB
 	Total Memory Usage without Joomla: 2MB
 	Total Memory Usage without Joomla and Jelly: 1.3MB
 	Total Execution Time: 0.127 seconds
-		
+
 **com_library**
 
-	Joomla 1.5 Only: 5.3MB
-	Total Memory Usage: 6.7MB
+	Total Memory Usage with Joomla: 6.7MB
+	Joomla 1.5 Only: 4.85MB
 	Initializing Koowa: 5.3MB
 	Total Memory Usage without Joomla: 1.4MB
 	Total Queries: 13
