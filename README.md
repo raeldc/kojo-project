@@ -48,9 +48,10 @@ See how it works:
 How to Install
 ==============
 *	Get the latest [Joomla 1.6 beta-3 release](http://joomlacode.org/gf/project/joomla/frs/?action=FrsReleaseBrowse&frs_package_id=5276) and install it in your development server.
-*	Download and Install the [KoJo Framework Plugin](http://github.com/raeldc/kojo-project/blob/master/packages/plg_kojo.zip). Don't forget to enable the plugin after install.
-*	Download and Install the [Joomla 1.6 Weblinks Frontend rewritten in KoJo](http://github.com/raeldc/kojo-klinks). Create a menu item to the component after install.
-*	Download and Install [How Nooku's example component was rewritten in KoJo](http://github.com/raeldc/kojo-project/blob/master/packages/com_klibrary.zip). 
+*	Download the [KoJo latest source code and installable packages](http://github.com/raeldc/kojo-project/downloads).
+*	Install the KoJo Framework Plugin **plg_kojo.zip**. Don't forget to enable the plugin after install.
+*	Install the Joomla 1.6 Weblinks Frontend rewritten in KoJo **com_klinks.zip**. Create a menu item to the component after install.
+*	Install Nooku's example component was rewritten in KoJo **com_klibrary.zip**.
 
 The Power behind KoJo: [Kohana 3](http://kohanaframework.org/)
 ==============================================================
@@ -141,7 +142,7 @@ I want to strip Kohana down into something lighter so it leaves little memory fo
 If you are familiar with Kohana, you know that stripping it down doesn't mean hacking the core. It only means overriding the things we don't need.
 
 
-Download the latest installable packages [here](http://github.com/raeldc/kojo-project/tree/master/packages/)
+Download the latest installable packages [here](http://github.com/raeldc/kojo-project/downloads)
 ------------------------------------------------------------------------------------------------------------
 
 Performance Summary
