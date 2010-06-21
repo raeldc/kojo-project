@@ -33,12 +33,10 @@ Other Features
 
 Non-Features
 ------------
-*	No Magic! KoJo is a very explicit framework. You'll know everything that is happening just by looking at the controller. 
-*	No Magic!! No Magic models that automagically handle pagination, ordering, etc. No Magic controllers that automagically handle form submissions.
+*	No Magic! KoJo is a very explicit framework. You'll know everything that is happening just by looking at the source code 
+*	No Magic!! No Magic models that automagically handle states, pagination, ordering, etc. No Magic controllers that automagically handle form submissions. You have to implement your own.
 *	No Magic!!! If you like magic, this is not the framework for you. But you can easily implement magics yourself using your own style.
 *	There is no template system other than plain PHP/HTML. KoJo eliminates unnecessary overheads as much as possible.
-
-If you're a Joomla developer and you've always wanted a swift, agile, RAD framework like RoR, Django, CodeIgniter, etc, now you can have that power inside Joomla! 	
 
 See how it works:
 =================
@@ -102,6 +100,15 @@ So yup, using Kohana is a step down in comparison to magical, do-everything-for-
 
 But Kohana allows you to pick the best libraries available in the open source world, and implement them in your own style.
 
+If there is no magic, then how can it help developers code faster?
+------------------------------------------------------------------
+Kohana was written with simplicity in mind. It removes unnecessary complexity, and unnecessary overhead. It allows you to code swiftly by being easy to learn. You don't need 1 week to completely grasp its concepts.
+
+Kohana grows with you too. You might be writing your own solutions at first, but after some months of using it, you'll find that you have your own set of libraries which helps you do your thing fast. 
+
+Libraries written for Kohana are usually very simple to use too. Then you can just extend them or strip features away for your own needs.
+
+The best framework is usually the one you understand completely. In Kohana 3, once you grasp the basics, you're up and running in no time.
 
 As a summary, understand these 3 things about Kohana, and you'll have the foundation to understand it completely easily:
 ------------------------------------------------------------------------------------------------------------------------
