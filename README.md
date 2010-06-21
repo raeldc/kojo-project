@@ -41,7 +41,7 @@ Kohana's Cascading File System and easy to understand class naming convention wi
 Kohana is meant to run alone, so as the project evolves, some parts of Kohana will be rewritten to strip it with unnecessary weight. 
 Then some helpers and classes relevant to Joomla will be added.
 
-To know more about Kohana, read the [unofficial wiki](http://kerkness.ca/wiki/doku.php). This is where you can read more about Routes. 
+To know more about Kohana, read the [unofficial wiki](http://kerkness.ca/wiki/doku.php). 
 
 As a summary, understand these 3 things about Kohana, and you'll have the foundation to understand it completely easily:
 ------------------------------------------------------------------------------------------------------------------------
