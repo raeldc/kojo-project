@@ -3,7 +3,7 @@ Quick Summary of why KoJo is Good
 
 *	**It's very easy to learn**
 *	**Consistent API**. Fully compliant with PHP 5 Object Oriented Programming
-*	**Allows you to write less code**. You've heard this cliche many times, but you can [Compare it with Nooku](http://github.com/raeldc/kojo-klibrary).
+*	**Allows you to write less code**. You've heard this cliche many times but what's the use of a framework without this?
 *	**Runs on Joomla 1.6**. Future proof!	
 *	**Take your skills with KoJo outside Joomla**! KoJo is based on a mature, stable, and highly acclaimed PHP Framework.
 *	**No restrictive naming conventions**. Class naming convention is the most practical you'll ever see.
@@ -43,19 +43,8 @@ Then some helpers and classes relevant to Joomla will be added.
 
 To know more about Kohana, read the [unofficial wiki](http://kerkness.ca/wiki/doku.php). 
 
-As a summary, understand these 3 things about Kohana, and you'll have the foundation to understand it completely easily:
-------------------------------------------------------------------------------------------------------------------------
-*	**File System structure and Naming Convention** - all classes in Kohana are located inside /application/classes. 
-Classes are named like this `Directory_SubDirectory_File`. Which means that it's located at `/application/classes/directory/subdirectory/file.php`. 
-There is an auto-loader so you don't have to explicitly include the file that contains the class. In KoJo, the classes are located at `/components/com_yourcomponent/classes`.
-*	**Cascading File System** - This one is a little bit complicated at first but once you learn it, it's smooth sailing. CFS gives you the flexibility to override anything that Kohana has without hacking it.
-[Read the explanation here](http://kohanaframework.org/guide/about.filesystem).
-*	**Routing and Request** - Everything in Kohana is based on the route. It takes segments from the URI and interprets the segment into parametrs based on a Regex. 
-The Route is passed on the Request, then the Request calls the controller based on the route. More on [Routing here](http://kerkness.ca/wiki/doku.php?id=routing:routing_basics).
-
-Why I Love Kohana 3
--------------------
-
+What's Unique About Kohana and why You would want to use it inside Joomla
+-------------------------------------------------------------------------
 In the world of programming, many experienced programmers have certain habits that makes them already efficient in what they are doing. 
 This makes transitioning to another framework a costly and risky investment.
 
@@ -83,7 +72,19 @@ This means that they are usually better that what do-everything-for-you RAD fram
 I want the freedom to choose which libraries I want and I want to use it freely inside my framework. That's what Kohana 3 does for me.
 
 So yup, using Kohana is a step down in comparison to magical, do-everything-for-you framework. 
-But I bet that the libraries I can use inside Kohana are steps ahead of what other do-everything-for-you frameworks offer.
+
+But Kohana allows you to pick the best libraries available in the open source world, and implement them in your own style.
+
+
+As a summary, understand these 3 things about Kohana, and you'll have the foundation to understand it completely easily:
+------------------------------------------------------------------------------------------------------------------------
+*	**File System structure and Naming Convention** - all classes in Kohana are located inside /application/classes. 
+Classes are named like this `Directory_SubDirectory_File`. Which means that it's located at `/application/classes/directory/subdirectory/file.php`. 
+There is an auto-loader so you don't have to explicitly include the file that contains the class. In KoJo, the classes are located at `/components/com_yourcomponent/classes`.
+*	**Cascading File System** - This one is a little bit complicated at first but once you learn it, it's smooth sailing. CFS gives you the flexibility to override anything that Kohana has without hacking it.
+[Read the explanation here](http://kohanaframework.org/guide/about.filesystem).
+*	**Routing and Request** - Everything in Kohana is based on the route. It takes segments from the URI and interprets the segment into parametrs based on a Regex. 
+The Route is passed on the Request, then the Request calls the controller based on the route. More on [Routing here](http://kerkness.ca/wiki/doku.php?id=routing:routing_basics).
 
 The Jelly ORM
 -------------
