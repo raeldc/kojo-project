@@ -8,6 +8,12 @@ Quick Summary of why KoJo is Good
 *	**Override everything in your application**. Don't like how an API works? Override it without hacking the core!
 *	**You want more room to implement your own style of programming than doing things a "certain way".**
 
+KoJo's main feature is the easy extendability and overloadability of its core. If you've been a programmer long enough, 
+and you realize that you usually end up doing your own solution that's unique to your application, then KoJo might be for you. 
+
+In other frameworks, applying your own solution usually means going out of convention. 
+KoJo has minimal conventions and just helps you in implementing your own unique solutions.
+
 Other Features
 --------------
 
@@ -16,6 +22,7 @@ Other Features
 *	Simple Class Naming Convention allows you to auto load files and easily search files in the file system.
 *	HMVC or Hierarchical Model View Controller allows you to call other applications inside your own.
 *	Validation Library. Powerful, extremely flexible and extendable data Validation library. 
+*	Granular Caching. Easy to implement Caching with variety of configurations.
 *	A Choice of ORM libraries. There are more than 4 ORM libraries for different tastes and needs. Using Dependency Injection, you can use your own Validation library in ORMs.
 *	Security. Libraries for cleaning up input.
 *	Etc. Inflectors, File Upload and Management, Form widgets, HTML helpers, Date helpers, Feed parser
@@ -72,10 +79,10 @@ This is good for most people, but not for some. Technology evolves so fast that 
 
 What's unqiue about Kohana 3 is that it doesn't force you to learn something entirely new. It accepts developers as they are, and they can leave as they are.
 You don't need to unlearn your good habits and coding style, only your bad. But even if you want to leave Kohana, you're not stuck with it, you can take the skills you learned, along with your code somewhere else.
-**Kohana gets out of the developer's way but assists them on things that really matter.**
 
-> **In the simplest explanation, Kohana is just a class auto-loader with a Cascading File System, a set of Profiling and Debugging tools, and an HMVC Request class that calls a Controller based on a URL.**
+> **There's no end all, be all framework. So Kohana gets out of the developer's way but assists them on things that really matter.**
 
+In the simplest explanation, Kohana is just a class auto-loader with a Cascading File System, a set of Profiling and Debugging tools, and an HMVC Request class that calls a Controller based on a URL.
 The Controller then takes charge of everything that's gonna happen. It can call a model, and pass the data to the view.
 
 Everything else in Kohana are Classes that you plug into the system.  Kohana doesn't have a model, it lets you use your own, or use existing ones. 
