@@ -25,10 +25,8 @@ How to Install
 *	Download and Install the [Joomla 1.6 Weblinks Frontend rewritten in KoJo](http://github.com/raeldc/kojo-klinks). Create a menu item to the component after install.
 *	Download and Install [Nooku's example component rewritten in KoJo](http://github.com/raeldc/kojo-project/blob/master/packages/com_klibrary.zip). 
 
-To compare, download the [Nooku Plugin](http://github.com/raeldc/kojo-project/blob/master/packages/plg_koowa.zip) 
 and the [com_library](http://github.com/raeldc/kojo-project/blob/master/packages/com_library.zip) example component.
 
-Please note that Nooku Runs on Joomla 1.5 for now.
 
 The Power behind KoJo: [Kohana 3](http://kohanaframework.org/)
 ==============================================================
@@ -136,13 +134,3 @@ Does Joomla take a performance hit when it runs a component written in KoJo? A l
 	Total Memory Usage without Joomla: 2MB
 	Total Memory Usage without Joomla and Jelly: 1.3MB
 	Total Execution Time: 0.127 seconds
-
-**com_library**
-
-	Total Memory Usage with Joomla: 6.7MB
-	Joomla 1.5 Only: 4.85MB
-	Initializing Koowa: 5.3MB
-	Total Memory Usage without Joomla: 1.4MB
-	Total Queries: 13
-	Total Execution Time: 0.217 seconds
-	
