@@ -25,9 +25,6 @@ How to Install
 *	Download and Install the [Joomla 1.6 Weblinks Frontend rewritten in KoJo](http://github.com/raeldc/kojo-klinks). Create a menu item to the component after install.
 *	Download and Install [Nooku's example component rewritten in KoJo](http://github.com/raeldc/kojo-project/blob/master/packages/com_klibrary.zip). 
 
-and the [com_library](http://github.com/raeldc/kojo-project/blob/master/packages/com_library.zip) example component.
-
-
 The Power behind KoJo: [Kohana 3](http://kohanaframework.org/)
 ==============================================================
 
@@ -36,7 +33,7 @@ In many ways and more, using Kohana 3 can give you the development boost that po
 
 You might have heard MVC. But Kohana 3 takes it one step further. [Kohana 3 is HMVC(Hierarchical Model View Controller)](http://kerkness.ca/wiki/doku.php?id=hmvc_in_kohana)!
 
-Kohana's Cascading File System and easy to understand class naming convention will blow your mind. It will make you say "why didn't I think of this before?".
+Kohana's Cascading File System and easy to understand class naming convention will make working inside the framework easy and modular.
 
 Kohana is meant to run alone, so as the project evolves, some parts of Kohana will be rewritten to strip it with unnecessary weight. 
 Then some helpers and classes relevant to Joomla will be added.
@@ -50,9 +47,10 @@ This makes transitioning to another framework a costly and risky investment.
 
 Many RAD frameworks out there forces you to learn "a certain way" of doing things which, once you've learned that way, it will undoubtedly make your life easier.
 These RADFs seem to say **"Forget your habits, forget your style, this is how we want you to do things"**.
-This is good for most people, but not for some like me. Technology evolves so fast that when it's time to move on, I don't wanna be stuck with this "certain way".
 
-What I love about Kohana 3 is that it doesn't force you to learn something entirely new. It accepts developers as they are, and they can leave as they are.
+This is good for most people, but not for some. Technology evolves so fast that when it's time to move on, you don't wanna be stuck with this "certain way".
+
+What's unqiue about Kohana 3 is that it doesn't force you to learn something entirely new. It accepts developers as they are, and they can leave as they are.
 You don't need to unlearn your good habits and coding style, only your bad. But even if you want to leave Kohana, you're not stuck with it, you can take the skills you learned, along with your code somewhere else.
 **Kohana gets out of the developer's way but assists them on things that really matter.**
 
@@ -80,15 +78,19 @@ As a summary, understand these 3 things about Kohana, and you'll have the founda
 ------------------------------------------------------------------------------------------------------------------------
 *	**File System structure and Naming Convention** - all classes in Kohana are located inside /application/classes. 
 Classes are named like this `Directory_SubDirectory_File`. Which means that it's located at `/application/classes/directory/subdirectory/file.php`. 
-There is an auto-loader so you don't have to explicitly include the file that contains the class. In KoJo, the classes are located at `/components/com_yourcomponent/classes`.
+There is an auto-loader so you don't have to explicitly include the file that contains the class. In KoJo, the classes are located at `/components/com_yourcomponent/classes`. 
+Or if you're making a module or plugin for Joomla, it's gonna be here `/modules/mod_yourmodule/classes`.
+
 *	**Cascading File System** - This one is a little bit complicated at first but once you learn it, it's smooth sailing. CFS gives you the flexibility to override anything that Kohana has without hacking it.
 [Read the explanation here](http://kohanaframework.org/guide/about.filesystem).
-*	**Routing and Request** - Everything in Kohana is based on the route. It takes segments from the URI and interprets the segment into parametrs based on a Regex. 
-The Route is passed on the Request, then the Request calls the controller based on the route. More on [Routing here](http://kerkness.ca/wiki/doku.php?id=routing:routing_basics).
 
-The Jelly ORM
+*	**HMVC Request** - HMVC or Hierarchical Model View Controller is the next evolution of MVC. It allows you to make your web applications more manageable and scalable. Visit the following links to learn more:
+[Understand HMVC in Kohana 3](http://kerkness.ca/wiki/doku.php?id=hmvc_in_kohana). [Benefits of HMVC](http://techportal.ibuildings.com/2010/02/22/scaling-web-applications-with-hmvc/).
+
+The ORM
 -------------
-KoJo includes the best ORM available in Kohana - Jelly. [Read more details about Jelly](http://jelly.jonathan-geiger.com/docs/jelly.getting-started).
+KoJo includes the best ORM available in Kohana - Jelly. [Read more details about Jelly](http://jelly.jonathan-geiger.com/docs/jelly.getting-started). There are many great ORM libraries in Kohana 3 that serves different needs.
+Jelly is fat and heavy but it is feature rich and very flexible.
 
 Development
 ===========
