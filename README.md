@@ -115,13 +115,14 @@ As a summary, understand these 3 things about Kohana, and you'll have the founda
 *	**File System structure and Naming Convention** - all classes in Kohana are located inside /application/classes. 
 Classes are named like this `Directory_SubDirectory_File`. Which means that it's located at `/application/classes/directory/subdirectory/file.php`. 
 There is an auto-loader so you don't have to explicitly include the file that contains the class. In KoJo, the classes are located at `/components/com_yourcomponent/classes`. 
-Or if you're making a module or plugin for Joomla, it's gonna be here `/modules/mod_yourmodule/classes`.
+Or if you're making a module or plugin for Joomla, it's gonna be here `/modules/mod_yourmodule/classes`. There is a better [explanation of the Kohana 3's naming convention here](http://kohanaframework.org/guide/about.conventions).
 
 *	**Cascading File System** - This one is a little bit complicated at first but once you learn it, it's smooth sailing. CFS gives you the flexibility to override anything that Kohana has without hacking it.
 [Read the explanation here](http://kohanaframework.org/guide/about.filesystem).
 
-*	**HMVC Request** - HMVC or Hierarchical Model View Controller is the next evolution of MVC. It allows you to make your web applications more manageable and scalable. Visit the following links to learn more:
-[Understand HMVC in Kohana 3](http://kerkness.ca/wiki/doku.php?id=hmvc_in_kohana). [Benefits of HMVC](http://techportal.ibuildings.com/2010/02/22/scaling-web-applications-with-hmvc/).
+*	**Routing and the HMVC Request** - HMVC or Hierarchical Model View Controller is the next evolution of MVC. It allows you to make your web applications more manageable and scalable. Visit the following links to learn more:
+[Understand HMVC in Kohana 3](http://kerkness.ca/wiki/doku.php?id=hmvc_in_kohana). [Benefits of HMVC](http://techportal.ibuildings.com/2010/02/22/scaling-web-applications-with-hmvc/). Kohana 3 stand alone depends on Routes to issue request. 
+Here's a [tutorial of how routes in Kohana 3 work](http://kohanaframework.org/guide/tutorials.urls). In KoJo, the parameters for the Request are passed through Joomla's url parameters so the Request doesn't need a Route.
 
 The ORM
 -------------
