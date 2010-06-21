@@ -25,8 +25,8 @@ Other Features
 Non-Features
 ------------
 *	No Magic! KoJo is a very explicit framework. You'll know everything that is happening just by looking at the controller. 
-*	No Magic!! No Magic models that handle pagination, ordering, etc. No Magic controllers that automatically handle form submissions.
-*	No Magic!!! But you can easily implement magics yourself using your own style.
+*	No Magic!! No Magic models that automagically handle pagination, ordering, etc. No Magic controllers that automagically handle form submissions.
+*	No Magic!!! If you like magic, this is not the framework for you. But you can easily implement magics yourself using your own style.
 *	There is no template system other than plain PHP/HTML. KoJo eliminates unnecessary overheads as much as possible.
 
 If you're a Joomla developer and you've always wanted a swift, agile, RAD framework like RoR, Django, CodeIgniter, etc, now you can have that power inside Joomla! 	
