@@ -1,15 +1,37 @@
 Quick Summary of why KoJo is Good
 =================================
 
+*	**Take your code made with KoJo outside Joomla**! This is perhaps the best reason why you would want to use KoJo. Any application you made with KoJo can run stand alone using the Kohana 3 Framework.
 *	**It's very easy to learn**
 *	**Consistent API**. Fully compliant with PHP 5 Object Oriented Programming
 *	**Allows you to write less code**. You've heard this cliche many times but what's the use of a framework without this?
 *	**Runs on Joomla 1.6**. Future proof!	
-*	**Take your skills with KoJo outside Joomla**! KoJo is based on a mature, stable, and highly acclaimed PHP Framework.
-*	**No restrictive naming conventions**. Class naming convention is the most practical you'll ever see.
+*	**Create Joomla Components, Modules or Plugins in MVC.**
 *	**Override everything in your application**. Don't like how an API works? Override it without hacking the core!
+*	**You want more room to implement your own style of programming than doing things a "certain way".**
 
-Have you ever wanted an swift, agile, RAD framework like RoR, Django, and CodeIgniter. You can have that power inside Joomla! 
+Other Features
+--------------
+
+*	Bare Minimum Framework which leaves very low memory footprint. Only 400KB on initialization.
+*	Highly Modular. Your code is always reusable and redistributable.
+*	Simple Class Naming Convention allows you to auto load files and easily search files in the file system.
+*	HMVC or Hierarchical Model View Controller allows you to call other applications inside your own.
+*	Validation Library. Powerful, extremely flexible and extendable data Validation library. 
+*	A Choice of ORM libraries. There are more than 4 ORM libraries for different tastes and needs. Using Dependency Injection, you can use your own Validation library in ORMs.
+*	Security. Libraries for cleaning up input.
+*	Etc. Inflectors, File Upload and Management, Form widgets, HTML helpers, Date helpers, Feed parser
+*	[Wide selection of Kohana 3 Libraries](http://github.com/search?langOverride=&q=kohana-&repo=&start_value=1&type=Repositories) and a healthy open source community.
+
+
+Non-Features
+------------
+*	No Magic! KoJo is a very explicit framework. You'll know everything that is happening just by looking at the controller. 
+*	No Magic!! No Magic models that handle pagination, ordering, etc. No Magic controllers that automatically handle form submissions.
+*	No Magic!!! But you can easily implement magics yourself using your own style.
+*	There is no template system other than plain PHP/HTML. KoJo eliminates unnecessary overheads as much as possible.
+
+If you're a Joomla developer and you've always wanted a swift, agile, RAD framework like RoR, Django, CodeIgniter, etc, now you can have that power inside Joomla! 	
 
 See how it works:
 =================
@@ -23,7 +45,7 @@ How to Install
 *	Get the latest [Joomla 1.6 beta-3 release](http://joomlacode.org/gf/project/joomla/frs/?action=FrsReleaseBrowse&frs_package_id=5276) and install it in your development server.
 *	Download and Install the [KoJo Framework Plugin](http://github.com/raeldc/kojo-project/blob/master/packages/plg_kojo.zip). Don't forget to enable the plugin after install.
 *	Download and Install the [Joomla 1.6 Weblinks Frontend rewritten in KoJo](http://github.com/raeldc/kojo-klinks). Create a menu item to the component after install.
-*	Download and Install [Nooku's example component rewritten in KoJo](http://github.com/raeldc/kojo-project/blob/master/packages/com_klibrary.zip). 
+*	Download and Install [How Nooku's example component was rewritten in KoJo](http://github.com/raeldc/kojo-project/blob/master/packages/com_klibrary.zip). 
 
 The Power behind KoJo: [Kohana 3](http://kohanaframework.org/)
 ==============================================================
