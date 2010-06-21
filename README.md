@@ -2,9 +2,7 @@ Quick Summary of why KoJo is Good
 =================================
 
 *	**Take your code made with KoJo outside Joomla**! This is perhaps the best reason why you would want to use KoJo. Any application you made with KoJo can run stand alone using the Kohana 3 Framework.
-*	**It's very easy to learn**
-*	**Consistent API**. Fully compliant with PHP 5 Object Oriented Programming
-*	**Allows you to write less code**. You've heard this cliche many times but what's the use of a framework without this?
+*	**Easily Understandable and Consistent API**. Fully compliant with PHP 5.2 Object Oriented Programming.
 *	**Runs on Joomla 1.6**. Future proof!	
 *	**Create Joomla Components, Modules or Plugins in MVC.**
 *	**Override everything in your application**. Don't like how an API works? Override it without hacking the core!
