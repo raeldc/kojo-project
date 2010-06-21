@@ -14,6 +14,8 @@ and you realize that you usually end up doing your own solution that's unique to
 In other frameworks, applying your own solution usually means going out of convention. 
 KoJo has minimal conventions and just helps you in implementing your own unique solutions.
 
+If you have complicated requirements and you think that your project will benefit from a fully featured Framework that applies many Design Patterns and Methodologies, then the best framework for you inside Joomla would be Nooku.
+
 Other Features
 --------------
 
