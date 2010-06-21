@@ -23,7 +23,7 @@ Other Features
 *	HMVC or Hierarchical Model View Controller allows you to call other applications inside your own.
 *	Validation Library. Powerful, extremely flexible and extendable data Validation library. 
 *	Granular Caching. Easy to implement Caching with variety of configurations.
-*	A Choice of ORM libraries. There are more than 4 ORM libraries for different tastes and needs. Using Dependency Injection, you can use your own Validation library in ORMs.
+*	A Choice of ORM libraries. There are more than 4 ORM libraries for different tastes and needs.
 *	Security. Libraries for cleaning up input.
 *	Etc. Inflectors, File Upload and Management, Form widgets, HTML helpers, Date helpers, Feed parser
 *	[Wide selection of Kohana 3 Libraries](http://github.com/search?langOverride=&q=kohana-&repo=&start_value=1&type=Repositories) and a healthy open source community.
